@@ -1,8 +1,8 @@
 package sub
 
 import (
-	"github.com/dogukanayd/go-simple-pub-sub/internal/pub/pub"
-	"github.com/dogukanayd/go-simple-pub-sub/internal/pub/req"
+	"github.com/dogukanayd/go-simple-pub-sub/internal/pub"
+	"github.com/dogukanayd/go-simple-pub-sub/internal/req"
 	"time"
 )
 

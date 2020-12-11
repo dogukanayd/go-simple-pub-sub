@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/dogukanayd/go-simple-pub-sub/internal/pub/pub"
-	"github.com/dogukanayd/go-simple-pub-sub/internal/pub/sub"
+	"github.com/dogukanayd/go-simple-pub-sub/internal/pub"
+	"github.com/dogukanayd/go-simple-pub-sub/internal/sub"
 	"github.com/google/uuid"
 )
 
