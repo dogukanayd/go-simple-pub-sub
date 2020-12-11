@@ -13,6 +13,6 @@ func Subscriber() {
 		requester := req.Requester{ID: val.(string)}
 		requester.Send()
 
-		time.Sleep(10 * time.Second)
+		time.Sleep(2 * time.Second)
 	}
 }
